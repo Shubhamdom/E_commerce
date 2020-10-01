@@ -1,0 +1,72 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <title>Registration Form</title>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+        Registration Form
+    </div>
+    <div class="form" method="post" action="#">
+        <div class="input_field">
+            <label>Name</label>
+            <input type="text" class="input" name="Name">
+        </div>
+        <div class="input_field">
+            <label>Business Name</label>
+            <input type="text" class="input" name="Business_Name">
+        </div>
+        <div class="input_field">
+            <label>Email</label>
+            <input type="email" class="input" name="Email">
+        </div>
+        <div class="input_field">
+            <label>Contact No</label>
+            <input type="text" class="input" name="Contact_No">
+        </div>
+        <div class="input_field">
+            <label>Street Address</label>
+            <input type="text" class="input" name="Street_Address">
+        </div>
+        <div class="input_field">
+            <label>City</label>
+            <input type="text" class="input" name="City">
+        </div>
+        <div class="input_field">
+            <label>State</label>
+            <input type="text" class="input" name="State">
+        </div>
+        <div class="input_field">
+            <label>Zip Code</label>
+            <input type="text" class="input" name="Zip_code">
+        </div>
+        <div class="input_field">
+            <label>Password</label>
+            <input type="password" class="input" name="password">
+        </div>
+        <div class="input_field">
+            <label>Confirm Password</label>
+            <input type="password" class="input" name="Confirm_password">
+        </div>
+        <div class="input_field">
+            <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <p>Agreed to terms and conditions </p>
+        </div>
+        <div class="input_field">
+            <input type="submit" value="Register" class="btn">
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>
